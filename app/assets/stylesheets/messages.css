@@ -1,0 +1,158 @@
+.wrapper{
+  display: flex;
+}
+
+/******
+サイドバーの装飾
+******/
+
+.side_bar{
+  width: 300px;
+  background-color: #253141;
+}
+
+.side_top_bar{
+  height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side_top_name{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.side_top_room_create{
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.side_bottom_bar{
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.side_bottom_room{
+  color: white;
+  margin: 20px 0 40px;
+  text-decoration: none;
+}
+
+/*******
+メインバーの装飾
+*******/
+
+.main_chat{
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+
+.main_top_bar{
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_top_room_name{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.main_top_end{
+  color: darkred;
+  border: 1px solid darkred;
+  padding: 20px;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+/******
+メインバーコメント部分
+******/
+.chat{
+  height: calc(100vh - 100px - 90px);
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.main_chat_box{
+  margin-bottom: 40px;
+}
+
+.main_chat_user_box{
+  display: flex;
+  margin: 10px 0;
+}
+
+.main_chat_user{
+  font-size: 16px;
+  color: #434a54;
+  margin-right: 10px;
+}
+
+.main_chat_time{
+  font-size: 12px;
+  color: #999;
+}
+/******
+メインバーフッター部分
+******/
+
+.main_bottom_bar{
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.main_bottom_form{
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+.main_bottom_text{
+  height: 50px;
+  width: 100%;
+  padding: 0 10px;
+  color: white;
+  border: none;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.main_bottom_submit{
+  height: 50px;
+  padding: 0 20px;
+  margin-left: 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #38aef0;
+  border: none;
+}
