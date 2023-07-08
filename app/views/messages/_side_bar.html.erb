@@ -1,5 +1,5 @@
 <div class="side_top_bar">
-  <%= link_to '松本', '#', class: 'side_top_name' %>
+  <%= link_to current_user.name, edit_user_path(current_user), class: 'side_top_name' %>
   <%= link_to 'チャットを作成する', '#', class: 'side_top_room_create' %>
 </div>
 
