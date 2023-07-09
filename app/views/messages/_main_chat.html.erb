@@ -2,7 +2,7 @@
    <div class="main_top_room_name">
      <%= @room.name %>
    </div>
-   <a href="#" class="main_top_end">チャットを終了する</a>
+   <%= link_to "チャットを終了する", room_path(@room), data: { turbo_method: :delete }, class: "main_top_end" %>
  </div>
     
 <div class="chat">
